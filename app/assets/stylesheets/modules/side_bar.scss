@@ -28,6 +28,11 @@
     background-color: $side_blue_light;
     .group{
       padding: 20px 20px 40px 20px;
+      color: $white;
+      &__link{
+        color: $white;
+        text-decoration: none;
+      }
       &__name{
         font-size: $side_group_name;
         font-weight: bold;
